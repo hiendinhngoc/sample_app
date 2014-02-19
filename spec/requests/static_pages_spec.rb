@@ -4,6 +4,13 @@ describe "Static pages" do
 
   subject { page }
 
+  describe "sigup page" do
+    before { visit signup_path }
+
+    it { should have_content("Sign up") }
+    it { should have_title(full_title('Sign up')) }
+  end
+
   describe "Home page" do
     before { visit root_path }
 
