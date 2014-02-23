@@ -42,6 +42,7 @@ group :development, :test do
   gem 'factory_girl_rails', '4.2.1'
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'rspec-its'
 end
 
 # Use ActiveModel has_secure_password

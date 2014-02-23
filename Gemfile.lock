@@ -115,13 +115,17 @@ GEM
     rake (10.1.1)
     rdoc (4.1.1)
       json (~> 1.4)
-    rspec-collection_matchers (0.0.2)
+    rspec-collection_matchers (0.0.3)
       rspec-expectations (>= 2.99.0.beta1)
     rspec-core (3.0.0.beta1)
     rspec-expectations (3.0.0.beta1)
       diff-lcs (>= 1.1.3, < 2.0)
       rspec-support (= 3.0.0.beta1)
+    rspec-its (1.0.0)
+      rspec-core (>= 2.99.0.beta1)
+      rspec-expectations (>= 2.99.0.beta1)
     rspec-mocks (3.0.0.beta1)
+      rspec-support (= 3.0.0.beta1)
     rspec-rails (3.0.0.beta1)
       actionpack (>= 3.0)
       activemodel (>= 3.0)
@@ -183,6 +187,7 @@ DEPENDENCIES
   jquery-rails
   mysql2
   rails (= 4.0.2)
+  rspec-its
   rspec-rails (>= 2.0.0.beta.18)
   sass-rails (~> 4.0.0)
   sdoc
